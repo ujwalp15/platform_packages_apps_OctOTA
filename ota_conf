@@ -4,12 +4,12 @@
 # Note:
 # * Multiple devices can be added in the xml file
 # * You can define any tags that end with 'Url'. These tags will be added in the UI automatically
-# * Chances are you only need to change the ota_url in this file 
+# * Chances are you only need to change the ota_url in this file
 #
-ota_url=https://raw.githubusercontent.com/ResurrectionRemix/OTA/master/akhil.xml
+ota_url=https://raw.githubusercontent.com/ujwalp15/OTA/oct-14.1/ujwal.xml
 release_type=Stable
-device_name=ro.rr.device
- 
+device_name=ro.to.device
+
 #
 # VERSION
 #
@@ -17,9 +17,9 @@ device_name=ro.rr.device
 # A version source can be a 'property key' from build.prop or a 'uname -r' command line
 # If a version is a number, leave the version_format empty. Otherwise, provide the date format
 #
-# Example with a property key 'ro.rr.version' : Parse the date 20150426 from 'ResurrectionRemix-M-v5.x.x-20150426-bacon'
+# Example with a property key 'ro.rr.version' : Parse the date 20150426 from ' OCT-N-WEEKLY-20170107-0318-oneplus3'
 #
-# Version source: ro.rr.version
+# Version source: ro.to.version
 # Version delimiter: -
 # Version position: 3 (zero based)
 # Version format: yyyyMMdd
@@ -33,7 +33,7 @@ device_name=ro.rr.device
 #
 # uname -r will only be needed if using the app for kernels, not required here
 
-version_source=ro.rr.version
+version_source=ro.to.version
 version_delimiter=-
 version_position=3
 version_format=yyyyMMdd
