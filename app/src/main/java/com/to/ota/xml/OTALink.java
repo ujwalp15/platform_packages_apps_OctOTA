@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.xml;
+package com.to.ota.xml;
 
 public class OTALink {
 

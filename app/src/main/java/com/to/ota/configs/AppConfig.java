@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.configs;
+package com.to.ota.configs;
 
 import android.app.AlarmManager;
 import android.content.Context;
@@ -22,9 +22,9 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.resurrection.ota.R;
-import com.resurrection.ota.scheduler.OTAListener;
-import com.resurrection.ota.utils.OTAUtils;
+import com.to.ota.R;
+import com.to.ota.scheduler.OTAListener;
+import com.to.ota.utils.OTAUtils;
 
 import java.text.DateFormat;
 import java.util.Date;

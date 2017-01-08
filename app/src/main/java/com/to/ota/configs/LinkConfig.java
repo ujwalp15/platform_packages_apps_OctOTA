@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.configs;
+package com.to.ota.configs;
 
 import android.content.Context;
 
-import com.resurrection.ota.xml.OTALink;
-import com.resurrection.ota.xml.OTAParser;
-import com.resurrection.ota.utils.OTAUtils;
+import com.to.ota.xml.OTALink;
+import com.to.ota.xml.OTAParser;
+import com.to.ota.utils.OTAUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

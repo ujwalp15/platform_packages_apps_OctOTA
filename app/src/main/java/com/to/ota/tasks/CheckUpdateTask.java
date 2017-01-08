@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.tasks;
+package com.to.ota.tasks;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -28,16 +28,16 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 
-import com.resurrection.ota.MainActivity;
-import com.resurrection.ota.R;
-import com.resurrection.ota.configs.AppConfig;
-import com.resurrection.ota.configs.LinkConfig;
-import com.resurrection.ota.configs.OTAConfig;
-import com.resurrection.ota.configs.OTAVersion;
-import com.resurrection.ota.dialogs.WaitDialogHandler;
-import com.resurrection.ota.utils.OTAUtils;
-import com.resurrection.ota.xml.OTADevice;
-import com.resurrection.ota.xml.OTAParser;
+import com.to.ota.MainActivity;
+import com.to.ota.R;
+import com.to.ota.configs.AppConfig;
+import com.to.ota.configs.LinkConfig;
+import com.to.ota.configs.OTAConfig;
+import com.to.ota.configs.OTAVersion;
+import com.to.ota.dialogs.WaitDialogHandler;
+import com.to.ota.utils.OTAUtils;
+import com.to.ota.xml.OTADevice;
+import com.to.ota.xml.OTAParser;
 
 import org.xmlpull.v1.XmlPullParserException;
 
